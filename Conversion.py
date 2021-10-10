@@ -14,7 +14,7 @@ if m*n == len(input_list):
     # Write your logic here
     arr1 = np.array(input_list)
     arr2 = arr1.reshape(m,n)
-    df1 = pd.Dataframe(arr2)
+    df1 = pd.DataFrame(arr2)
     print(df1)
 else:
     print("Weird Order!")
